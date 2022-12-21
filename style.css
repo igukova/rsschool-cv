@@ -1,0 +1,57 @@
+body{
+background: rgb(249, 247, 247);
+max-width: 1024px;
+margin: 20px auto;   
+}
+
+.container{
+background: #C4DFE6;
+padding: 20px;
+}
+
+.right-side {
+background: #07575B;
+padding: 20px;
+}
+.left-side{
+background: #66A5AD; 
+padding: 20px; 
+}
+.img {
+height: 50%;
+}
+hr{
+    display: block;
+    color:#C4DFE6 ;
+}
+.sertifikat{
+    height: 260px;
+    padding: 15px;
+}
+footer {
+height: 60px;
+background: #003B46;
+
+}
+.logo{
+    padding: 10px;
+}
+.icons {
+    margin: 0 10px;
+  color:;
+  background: ;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+.icons {
+    margin: 0 10px;
+}
+.links a {
+    color: #C4DFE6;
+}
+
+.icons li {
+  
+  list-style: none;
+}
