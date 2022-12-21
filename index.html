@@ -23,10 +23,39 @@
       integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
       crossorigin="anonymous">
     <title>CV - Iryna Gukova</title>
-    <link rel="stylesheet" href="/style.css" >
+    <link rel="stylesheet" href="style.css" >
   </head>
   <body>
-    <div class="container">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">IG</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Myself</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
       <div class="row d-flex text-center" >
           <div class="right-side col-sm-4">
              <img src="assets/img/irynag.jpg" alt="gukova_iryna" class="img-fluid">
@@ -39,7 +68,7 @@
       </div>
       <div class="row skills">
           <div class="right-side col-sm-4">
-             <h4>Contact</h4>
+             <h2><a name="contact"></a>Contact</h2>
              <hr>
                <ul class="icons">
                  <li>Leipzig, Germany</li>
@@ -50,7 +79,7 @@
                  </ul>
             </div>
         <div class="left-side col-8">
-        <h2>Briefly About Myself:</h2> 
+        <h2><a name="about"></a>Briefly About Myself:</h2> 
         <hr>
              <p> I have good interpersonal skills, work well in a team and am eager to learn and develop new skills.
               I really enjoy learning aboutFrontend Development.
@@ -58,9 +87,9 @@
               I believe that my ability to learn and acquire new skills will lead me to become an experienced Frontend Developer.</p>
         </div>
       </div>
-       <div class=" row education">
+       <div class="row">
           <div class="right-side col-sm-4">
-             <h4>Skills and Proficiency</h4>
+             <h2><a name="skills"></a>Skills and Proficiency</h2>
              <hr>
                <ul>
                  <li><span>HTML5, CSS3</span></li>
@@ -69,13 +98,16 @@
                  <li><span>VS Code</span></li>
                  <li><span>Adobe Photoshop</span></li>
                 </ul>
-            <h4>Languages:</h4>
+            <h2><a name="languages"></a>Languages:</h2>
                 <hr>
               <ul>
                  <li><span>A2-English</span></li>
                  <li><span>A1-German</span></li>
+                 <li><span>native-Ukrainian</span></li>
+                 <li><span>C2-Russian</span></li>
+                  
               </ul>
-            <h4>Code example:</h4>
+            <h2>Code example:</h2>
                 <hr>
                 <pre>
                   <code>
@@ -89,7 +121,13 @@
                 </pre>
             </div>
         <div class="left-side col-8">
-        <h4>Education</h4>
+          <h2><a name="project"></a>Project:</h2>
+          <hr>
+        <ul>
+           <li><a href="https://github.com/igukova/weather-weekly">Weather weekly</a></li>
+           <li><a href="https://github.com/igukova/rsschool-cv">CV</a></li>  
+        </ul>
+        <h2><a name="education"></a>Education</h2>
         <hr>
         <div class=" row">
           <div class="col"><a href="https://www.shecodes.io/graduates/46857-iryna-gukova">SheCodes Basics</a>
@@ -125,15 +163,15 @@
               </div>
         </div> 
          <div class=" row">
-          <div class="col">RS Schools Course «JavaScript/Front-end. Stage 0»</a>
+          <div class="col">RS Schools Course «JavaScript/Front-end. Stage 0»
           </div>
            <div class="col">
             <span>(in progress)</span> 
           </div>
-        </div>       
-          
+        </div>               
         </div>
       </div>
+    </main>
       <footer>
         <div class="row justify-content-center">
            <div class="col-4 logo">
@@ -148,7 +186,6 @@
               <a href="https://github.com/igukova"  target="_blank"> <i class="fab fa-github"></i></a> 
            </div>
          </div>
-     </footer> 
-    </div>
+     </footer>   
  </body>
 </html>
